@@ -1,0 +1,54 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("sketchBackground.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+    height: 60%;
+    aspect-ratio: 1;
+}
+
+.grid-item {
+    background-color: #ffffff;
+}
+
+button {
+    background-color: #e57d51; /* Rusty orange */
+    border: 2px solid #d35400; /* Slightly darker orange for border */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #d35400; 
+    border-color: #e57d51;
+}
+
+@media (max-width: 535px) {
+    .button-container {
+        flex-wrap: wrap;
+    }
+}
