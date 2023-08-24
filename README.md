@@ -1,2 +1,6 @@
-# odin-EtchASketch
-Odin Project: Designing a webpage which constructs a coloring grid according to the user's input
+# Thanks!
+
+**Images have been taken from unsplash:**
+
+- [Lucas Kapla](https://unsplash.com/photos/wQLAGv4_OYs)
+
